@@ -7,6 +7,32 @@
     <title>타이포그래피 속성 - 텍스트</title>
     <style>
         /* 여기에 작성해보세요:) */
+        div { border: 1px solid gray; }
+        div.a { text-align: center; }   /* tac */
+        div.b { text-align: left; }     /* ta */
+        div.c { text-align: right; }    /* tar */
+        div.d { text-align: justify; }  /* taj */
+
+        div.e { text-indent: 50px; }
+        div.f p.a { text-decoration: underline; }
+        div.f p.b { text-decoration: overline; }
+        div.f p.c { text-decoration: line-through; }
+
+        div.g p.a { text-transform: uppercase; }
+        div.g p.b { text-transform: lowercase; }
+        div.g p.c { text-transform: capitalize; }
+
+        div.h p { line-height: 80px; }
+        div.h p.a span { vertical-align: super; }
+        div.h p.b span { vertical-align: sub; }
+
+        div.i { letter-spacing: 5px; }
+        div.j { word-spacing: 30px; }
+        div.k { white-space: pre; }
+        div.l p.a { word-break: keep-all;}
+        div.l p.b { word-break: break-all;}
+        div.l p { width: 300px; }
+
     </style>
 </head>
 <body>
@@ -21,6 +47,11 @@
         <h2>text-align : left;</h2>
         <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
         </p>
     </div>
     <div class="c">
@@ -32,6 +63,12 @@
     <div class="d">
         <h2>text-align : justify;</h2>
         <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
         </p>
     </div>
@@ -116,7 +153,7 @@
 
     <h1>word-spacing</h1>
     <div class="j">
-        <h2>word-spacing : 5px</h2>
+        <h2>word-spacing : 30px</h2>
         <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
         </p>

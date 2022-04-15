@@ -6,13 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>타이포그래피 속성</title>
 
-    <!-- 웹 포트 가져오기 -->
+    <!-- 웹 폰트 가져오기 -->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap" rel="stylesheet">
 
     <style>
-         /* 여기에 작성해보세요:) */
+        /* 여기에 작성해보세요:) */
+        p.a { 
+            font-family: 'Noto Sans KR', sans-serif;
+            font-style: oblique;    /* 비스듬히 */
+        }
 
+        p.b {
+            font-family: 'Nanum Brush Script', cursive;
+            font-size: 20px;
+            line-height: 30px;
+            font-weight: bold;
+            /* 100~900 사이, 커질수록 굵은 폰트 */
+            /* lighter, normal, bold, bolder */
+        }
+
+        p.c { font-variant: small-caps; }
          
         p.d {
             /* 
@@ -25,6 +39,7 @@
                 - font-family   : 'Nanum Brush Script', cursive;
             */
             /* 여기에 작성해보세요:) */
+            font: italic small-caps bold 24px/30px 'Nanum Brush Script', cursive;
         }
     </style>
 
@@ -46,6 +61,7 @@
     <p class="c">
         Lorem Ipsum is simply dummy text of the printing and typesetting industry.
     </p>
+
     <p class="d">
         Lorem Ipsum is simply dummy text of the printing and typesetting industry.
     </p>
